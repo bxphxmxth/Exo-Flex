@@ -1,19 +1,44 @@
-.flex-container{
+/* .flex-container{
     background-color: #e6ad9a;
     height: 1000px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
     /* justify-content: space-between; */
-}
+/* } */
 
 
-.flex-item{
+/* .flex-item{
     background-color: red;
     height: 150px;
-    
     margin: 10px;
     padding-top: 80px;
     padding-right: 50px;
     padding-left: 50px;
 }
+ */
+
+
+
+ section{
+     background-color: sandybrown;
+     height: 700px;
+ }
+
+
+ .flex-container{
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     justify-content: center;
+     height: 100%;
+     
+ }
+
+ .flex-item{
+     background-color:purple;
+     height: 150px;
+     padding: 50px;
+     margin: 5px;
+
+ }
