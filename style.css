@@ -1,0 +1,19 @@
+.flex-container{
+    background-color: #e6ad9a;
+    height: 1000px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+
+.flex-item{
+    background-color: red;
+    height: 150px;
+    
+    margin: 10px;
+    padding-top: 80px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
